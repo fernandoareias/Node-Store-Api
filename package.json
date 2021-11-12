@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node bin/server.js"
+    "start": "node bin/server.js",
+    "dev": "nodemon bin/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,11 +19,12 @@
   },
   "homepage": "https://github.com/fernandoareias/Node-Store-Api#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "debug": "^4.3.2",
     "express": "^4.17.1",
     "http": "0.0.1-security"
   },
   "devDependencies": {
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.15"
   }
 }
