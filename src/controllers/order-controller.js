@@ -2,8 +2,8 @@
 'use strict'
 
 const mongoose = require('mongoose');
-const Product = mongoose.model('Product');
-const repository = require('../repositories/product-repository');
+const Order = mongoose.model('Order');
+const repository = require('../repositories/order-repository');
 
 exports.get = async(req, res, next) => {
   try{
