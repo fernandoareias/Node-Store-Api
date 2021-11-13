@@ -2,11 +2,13 @@
 
 const bodyParser = require('body-parser');
 const express = require('express');
+const mongoose = require('mongoose');
 
 const app = express();
 const router = express.Router();
 
-// Carregar as rotas
+
+//mongoose.connect('mongodb://root:example@localhost:27017/');
 
 const index = require('./routes/index');
 const products = require('./routes/product');
